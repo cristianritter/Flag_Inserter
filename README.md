@@ -1,2 +1,2 @@
 # Flag_Inserter
-Sistema embarcado em um STM32 para retransmissão de dados Seriais que insere uma mensagem do tipo flag de vida em intervalos regulares para verificação da integridade da linha de transmissão serial. Além disso permite identificar a origem do fluxo em casos de roteamento do sinal Serial para o destino.
+Sistema embarcado em um STM32 para retransmissão de dados Seriais que recebe dados em uma porta serial e os encaminha para outra porta serial.  Adicionalmente o sistema insere uma mensagem do tipo flag de vida em intervalos regulares de tempo para verificação da integridade da linha de transmissão serial. Por meio do uso de flags diferenciadas, permite identificar a origem do fluxo em casos de destino com sinal Serial roteado de multiplas origens.
